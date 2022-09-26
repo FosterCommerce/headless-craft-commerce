@@ -2,7 +2,7 @@
 
 ## Get a copy of the project
 
-The project is hosted in a public GitHub repository at https://github.com/FosterCommerce/dot-all-2022-workshop.git
+The project is hosted in a public GitHub repository at https://github.com/FosterCommerce/headless-craft-commerce.git
 
 Later on we will be deploying the site to The Cloud using Vercel. In order to do this, you will need to host the code in your own repository using GitHub, GitLab, or Bitbucket. For simplicity, these instructions are assuming you are using GitHub. 
 
@@ -11,7 +11,7 @@ If you have a GitHub account you can simply import the project into a new repo.
 
 1. Log in to your GitHub account and go to your Repositories tab.
 2. Click "New", give the repository a name, and click "Create"
-3. On the next screen click the "Import Code" button and enter the url https://github.com/FosterCommerce/dot-all-2022-workshop.git. It may take a few minutes to import the code.
+3. On the next screen click the "Import Code" button and enter the url https://github.com/FosterCommerce/headless-craft-commerce.git. It may take a few minutes to import the code.
 4. Once that is done, you can check the repository out to your local machine as normal.
 
 If you do it this way, then skip to the Installation section below.
@@ -20,9 +20,9 @@ If you do it this way, then skip to the Installation section below.
 Alternatively you can clone the project to your local machine and change its remote origin to your own repository.
 
 1. **Clone the project** to your local machine with
-- `git clone git@github.com:FosterCommerce/dot-all-2022-workshop.git`
-- or; `git clone https://github.com/FosterCommerce/dot-all-2022-workshop.git`
-- or; download the project as a .zip file from https://github.com/FosterCommerce/dot-all-2022/archive/refs/heads/develop.zip
+- `git clone git@github.com:FosterCommerce/headless-craft-commerce.git`
+- or; `git clone https://github.com/FosterCommerce/headless-craft-commerce.git`
+- or; download the project as a .zip file from [https://github.com/FosterCommerce/dot-all-2022/archive/refs/heads/develop.zip](https://github.com/FosterCommerce/headless-craft-commerce/archive/refs/heads/main.zip)
 
 2. **Change the origin**
 To make this your own, fire up a terminal and navigate to the root directory of the project. Type the following; 
