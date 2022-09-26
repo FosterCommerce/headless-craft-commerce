@@ -1,0 +1,3 @@
+query ProductsCount ($categories: [QueryArgument]) {
+    count: productCount(relatedToCategories: {id: $categories})
+}

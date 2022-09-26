@@ -1,0 +1,74 @@
+#import "./fragments/FieldContentBlocks.gql"
+#import "./fragments/AssetImages.gql"
+
+query EntriesPages (
+    $id: [QueryArgument]
+    $slug: [String] = ["*"]
+    $uri: [String] = ["*", null]
+    $limit: Int = 100
+    $offset: Int = 0
+    $allowDraft: Boolean = false
+) {
+    entries (
+        section: ["pages"]
+        id: $id
+        slug: $slug
+        uri: $uri
+        limit: $limit
+        offset: $offset
+        provisionalDrafts: $allowDraft
+    ) {
+        id
+        title
+        typeHandle
+        sectionHandle
+        language
+        uri
+        slug
+        seomatic(asArray: true) {
+            metaScriptContainer
+            metaTitleContainer
+            metaTagContainer
+            metaJsonLdContainer
+            metaLinkContainer
+        }
+        parent {
+            id
+            title
+            uri
+        }
+        ...TypePagesGeneral
+        ...TypePagesCollection
+    }
+}
+
+fragment TypePagesGeneral on EntryInterface {
+    ... on pages_general_Entry {
+        contentBlocks {
+            ...FieldContentBlocks
+        }
+        previewImage {
+            ...Images
+        }
+        previewText
+        keywords
+    }
+}
+
+fragment TypePagesCollection on EntryInterface {
+    ... on pages_collection_Entry {
+        categories {
+            ... on CategoryInterface {
+                id
+                title
+                level
+            }
+        }
+        pagination
+        previewImage {
+            ...Images
+        }
+        previewText
+        keywords
+    }
+}

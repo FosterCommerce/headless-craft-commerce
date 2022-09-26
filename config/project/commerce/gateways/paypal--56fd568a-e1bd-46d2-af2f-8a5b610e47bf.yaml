@@ -1,0 +1,15 @@
+handle: paypal
+isFrontendEnabled: $PAYPAL_ENABLED
+name: PayPal
+paymentType: purchase
+settings:
+  _brandName: $PAYPAL_BRAND
+  brandName: $PAYPAL_BRAND
+  clientId: $PAYPAL_CLIENT_ID
+  landingPage: BILLING
+  secret: $PAYPAL_SECRET
+  sendCartInfo: $PAYPAL_SEND_CART_INFO
+  sendShippingInfo: $PAYPAL_SEND_SHIPPING_INFO
+  testMode: $PAYPAL_TEST_MODE
+sortOrder: 2
+type: craft\commerce\paypalcheckout\gateways\Gateway

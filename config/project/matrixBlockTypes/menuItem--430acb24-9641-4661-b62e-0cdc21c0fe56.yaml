@@ -1,0 +1,95 @@
+field: df62c394-9de1-4e87-baf3-56bc70321894 # Primary Navigation
+fieldLayouts:
+  f730a51b-08c5-4ffa-bff5-bd529d8fc9ba:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8151dd06-ae31-4c45-bd7e-47e7adbafd1b # Navigation Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ca86130-56e3-4bfe-8d4a-bcd97639809f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 476e1b40-d827-4c76-bb56-62f49f22a58d
+        userCondition: null
+fields:
+  8151dd06-ae31-4c45-bd7e-47e7adbafd1b: # Navigation Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: navLink
+    instructions: null
+    name: 'Navigation Link'
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        craftCommerce-product:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources:
+            - 'section:3f16d68f-cda8-49f7-8564-ba9db1855669' # Pages
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+handle: menuItem
+name: 'Menu Item'
+sortOrder: 1

@@ -1,0 +1,11 @@
+handle: stripe
+isFrontendEnabled: $STRIPE_ENABLED
+name: 'Credit Card'
+paymentType: purchase
+settings:
+  apiKey: $STRIPE_SECRET_KEY
+  publishableKey: $STRIPE_PUB_KEY
+  sendReceiptEmail: $STRIPE_SEND_EMAIL
+  signingSecret: $STRIPE_WEBHOOK_SECRET
+sortOrder: 1
+type: craft\commerce\stripe\gateways\PaymentIntents

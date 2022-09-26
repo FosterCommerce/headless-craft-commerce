@@ -1,0 +1,111 @@
+columnSuffix: iyxiwocv
+contentColumnType: string
+fieldGroup: e0684c4e-4db6-49fe-b178-60bbc3750374 # Options
+handle: color
+instructions: null
+name: Color
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - None
+        -
+          - value
+          - none
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - White
+        -
+          - value
+          - white
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Gray
+        -
+          - value
+          - gray
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Black
+        -
+          - value
+          - black
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Red
+        -
+          - value
+          - red
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Green
+        -
+          - value
+          - green
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Blue
+        -
+          - value
+          - blue
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Yellow
+        -
+          - value
+          - yellow
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Orange
+        -
+          - value
+          - orange
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,22 @@
+tabs:
+  -
+    elementCondition: null
+    elements:
+      -
+        attribute: addresses
+        elementCondition: null
+        id: null
+        instructions: null
+        label: null
+        orientation: null
+        requirable: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\users\AddressesField
+        uid: f117bbe9-0db0-42f7-bcf3-68d79b268b15
+        userCondition: null
+        warning: null
+        width: 100
+    name: 'Contact Information'
+    uid: 643fe509-13f4-4f78-9174-e44889c5adba
+    userCondition: null

@@ -1,0 +1,133 @@
+fieldLayouts:
+  c93dbc56-7a4d-4ddc-a134-160207914d32:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3ca2d446-1add-4557-9caf-3e8a919ccad3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0f2c6c9a-3092-47f2-b0dc-46d8ce11c178 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f36b2228-116b-49e0-a5d5-fde5a22d3301
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9c475876-3670-4452-82c1-8274c5cbccb2 # Image
+            instructions: null
+            label: 'Hero Image'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1708239f-de70-450f-a7dd-9e7844dbf30f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b20289ca-0de7-4d8b-bc7d-abb37d6f9dcb # Summary
+            instructions: null
+            label: 'Hero Summary'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5fa077c6-e565-4fc4-af88-8943646e30ac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8aa229ec-7643-48c3-947d-9d2c1882b8f2 # Content Blocks
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33f8fa6d-4279-40bb-b3bf-19d44b6b7c63
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e3263060-a5e9-45bf-b644-6f1bbce344fa
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 66830969-da65-4137-bbfa-98dd011cc191 # Preview Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d975506-3005-454c-8bcc-8b1151b8c502
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a9b1834c-4af7-44b5-81de-00dc035a0515 # Preview Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8cb1c451-7de4-4b6b-90a6-aa245a513964
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7434a2d9-23f7-4206-84fa-f1bbad8be64f # Keywords
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 10d57449-d562-4c41-92a7-7ba42c8933e6
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO / Meta'
+        uid: 6b9ebed3-fae2-4cd7-806e-a10771ba1c18
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: 9685ed87-31a4-435c-9f18-ba478320023a # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

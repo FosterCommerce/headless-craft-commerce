@@ -1,0 +1,9 @@
+description: ''
+enabled: true
+fileNameFormat: 'Order_{number}'
+handle: order
+isDefault: true
+language: orderLanguage
+name: Order
+sortOrder: 9999
+templatePath: receipt.twig

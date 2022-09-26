@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{{alias("@nuxtBaseUrl")}}/{uri}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f8a2a825-4c38-46e8-853b-b3ee5d46969b: # Foster Commerce Dot All 2022
+    enabledByDefault: true
+    hasUrls: true
+    template: index
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: 31df17bf-3c53-4a00-a46f-014c47f15584
+type: structure

@@ -1,0 +1,75 @@
+field: 8aa229ec-7643-48c3-947d-9d2c1882b8f2 # Content Blocks
+fieldLayouts:
+  7e2a3200-8ee2-49b4-9fdf-ab4da4d2c2c0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a1418b5d-f2c0-4a47-a789-f6ce3f3b0387 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0771271-7c2f-4162-a0c9-465f9b04b34d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 658ac757-d60a-47fd-959c-5feb00c6cc61
+        userCondition: null
+fields:
+  a1418b5d-f2c0-4a47-a789-f6ce3f3b0387: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:6208c751-b47b-4315-ac54-cd1f33debd7a' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:6208c751-b47b-4315-ac54-cd1f33debd7a' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:6208c751-b47b-4315-ac54-cd1f33debd7a' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 3

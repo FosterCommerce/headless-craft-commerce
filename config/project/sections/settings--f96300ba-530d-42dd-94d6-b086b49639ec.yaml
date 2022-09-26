@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: settings
+name: Settings
+propagationMethod: all
+siteSettings:
+  f8a2a825-4c38-46e8-853b-b3ee5d46969b: # Foster Commerce Dot All 2022
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

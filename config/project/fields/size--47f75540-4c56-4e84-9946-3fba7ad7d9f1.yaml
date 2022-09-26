@@ -1,0 +1,89 @@
+columnSuffix: ydwihhqh
+contentColumnType: string
+fieldGroup: e0684c4e-4db6-49fe-b178-60bbc3750374 # Options
+handle: size
+instructions: null
+name: Size
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - XXS
+        -
+          - value
+          - xxs
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - XS
+        -
+          - value
+          - xs
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - S
+        -
+          - value
+          - s
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - M
+        -
+          - value
+          - m
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - L
+        -
+          - value
+          - l
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - XL
+        -
+          - value
+          - xl
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - XXL
+        -
+          - value
+          - xxl
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

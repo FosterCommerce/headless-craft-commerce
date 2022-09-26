@@ -1,0 +1,29 @@
+query Addresses (
+    $id: [QueryArgument]
+    $ownerId: [QueryArgument]
+    $limit: Int = 100
+    $offset: Int = 0
+) {
+    addresses (
+        id: $id
+        ownerId: $ownerId
+        limit: $limit
+        offset: $offset
+    ) {
+        ... on Address {
+            id
+            title
+            firstName
+            lastName
+            fullName
+            organization
+            addressLine1
+            addressLine2
+            locality
+            administrativeArea
+            countryCode
+            postalCode
+            phone
+        }
+    }
+}

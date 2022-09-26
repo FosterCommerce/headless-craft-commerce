@@ -1,0 +1,35 @@
+#import "./fragments/FieldContentBlocks.gql"
+#import "./fragments/AssetImages.gql"
+
+query EntryHome($allowDraft: Boolean = false) {
+  entry(section: "home", provisionalDrafts: $allowDraft) {
+    title
+    uri
+    slug
+    language
+    typeHandle
+    sectionHandle
+    seomatic(asArray: true) {
+      metaScriptContainer
+      metaTitleContainer
+      metaTagContainer
+      metaJsonLdContainer
+      metaLinkContainer
+    }
+    ... on home_home_Entry {
+      heading
+      image {
+        ...Images
+      }
+      summary
+      contentBlocks {
+        ...FieldContentBlocks
+      }
+      previewImage {
+        ...Images
+      }
+      previewText
+      keywords
+    }
+  }
+}

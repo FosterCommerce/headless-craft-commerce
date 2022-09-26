@@ -1,0 +1,78 @@
+columnSuffix: peazjrid
+contentColumnType: string
+fieldGroup: e0684c4e-4db6-49fe-b178-60bbc3750374 # Options
+handle: pagination
+instructions: null
+name: 'Results per page'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '3'
+        -
+          - value
+          - '3'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '6'
+        -
+          - value
+          - '6'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '9'
+        -
+          - value
+          - '9'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - '12'
+        -
+          - value
+          - '12'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '24'
+        -
+          - value
+          - '24'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '30'
+        -
+          - value
+          - '30'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,9 @@
+query SEOMaticQuery ($uri: String = "*") {
+  seomatic(uri: $uri, asArray: true) {
+		... on SeomaticType {
+			metaTitleContainer
+			metaTagContainer
+			metaJsonLdContainer
+		}
+	}
+}

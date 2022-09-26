@@ -1,0 +1,104 @@
+field: 8aa229ec-7643-48c3-947d-9d2c1882b8f2 # Content Blocks
+fieldLayouts:
+  19876a42-8f75-46f4-b62e-86c95491f049:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0491950d-ac35-4f01-a408-29e979b6dd19 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61f8c76a-d464-43be-8fa2-d2a8fe972a32
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4dc80b48-acd0-45f5-abdd-abe4eadce58e # Size
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4501929b-c21d-42cb-a2ea-485a3e9f420f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b624725d-3e5e-491d-ace5-93db86a470bb
+        userCondition: null
+fields:
+  4dc80b48-acd0-45f5-abdd-abe4eadce58e: # Size
+    columnSuffix: fvusojty
+    contentColumnType: string
+    fieldGroup: null
+    handle: size
+    instructions: null
+    name: Size
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - medium
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  0491950d-ac35-4f01-a408-29e979b6dd19: # Heading
+    columnSuffix: jpsldsyc
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: heading
+name: Heading
+sortOrder: 1

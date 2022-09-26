@@ -1,0 +1,94 @@
+#import "./fragments/FieldContentBlocks.gql"
+#import "./fragments/AssetImages.gql"
+
+query ProductsCatalog (
+    $id: [QueryArgument]
+    $slug: [String] = ["*"]
+    $uri: [String] = ["*", null]
+    $limit: Int = 100
+    $offset: Int = 0
+    $categories: [QueryArgument]
+    $orderBy: String
+) {
+    products (
+        id: $id
+        slug: $slug
+        uri: $uri
+        limit: $limit
+        offset: $offset
+        relatedToCategories: {id: $categories}
+        orderBy: $orderBy
+    ) {
+        id
+        title
+        productTypeHandle
+        language
+        uri
+        slug
+        seomatic(asArray: true) {
+            metaScriptContainer
+            metaTitleContainer
+            metaTagContainer
+            metaJsonLdContainer
+            metaLinkContainer
+        }
+        ...TypeProductsCatalog
+    }
+}
+
+fragment TypeProductsCatalog on ProductInterface {
+    ... on catalog_Product {
+        contentBlocks {
+            ...FieldContentBlocks
+        }
+        categories {
+            ... on CategoryInterface {
+                id
+                title
+                level
+            }
+        }
+        previewImage {
+            ...Images
+        }
+        previewText
+        keywords
+        variants {
+            ...VariantCatalog
+        }
+    }
+}
+
+fragment VariantCatalog on VariantInterface {
+    id
+    price
+    priceAsCurrency
+    salePrice
+    salePriceAsCurrency
+    sku
+    isDefault
+    isAvailable
+    stock
+    hasUnlimitedStock
+    maxQty
+    minQty
+    weight
+    width
+    height
+    ... on catalog_Variant {
+        title
+        image {
+            ...Images
+        }
+        images {
+            ...Images
+        }
+        size
+        color
+    }
+    product {
+        id
+        uri
+        slug
+    }
+}

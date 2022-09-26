@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{{alias("@nuxtBaseUrl")}}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f8a2a825-4c38-46e8-853b-b3ee5d46969b: # Foster Commerce Dot All 2022
+    enabledByDefault: true
+    hasUrls: true
+    template: index
+    uriFormat: __home__
+type: single

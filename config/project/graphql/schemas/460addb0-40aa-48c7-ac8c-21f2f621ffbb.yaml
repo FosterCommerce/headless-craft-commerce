@@ -1,0 +1,18 @@
+isPublic: false
+name: 'Site Schema'
+scope:
+  - 'sites.f8a2a825-4c38-46e8-853b-b3ee5d46969b:read' # Foster Commerce Dot All 2022
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.9685ed87-31a4-435c-9f18-ba478320023a:read' # Home
+  - 'entrytypes.d3951874-9e5b-4586-979e-c7e9c5b08d92:read' # Home
+  - 'sections.3f16d68f-cda8-49f7-8564-ba9db1855669:read' # Pages
+  - 'entrytypes.6e4128ef-78da-40a5-aca7-b52de59fbc3c:read' # General
+  - 'entrytypes.4188fa88-45c2-4d45-bc06-3a135bab0725:read' # Collection
+  - 'sections.f96300ba-530d-42dd-94d6-b086b49639ec:read' # Settings
+  - 'entrytypes.05440641-857c-492e-bbb9-37ff03c88963:read' # Settings
+  - 'volumes.6208c751-b47b-4315-ac54-cd1f33debd7a:read' # Images
+  - 'categorygroups.1b753347-9223-47d6-8349-fc1c7c290ea1:read' # Product Categories
+  - 'productTypes.8f9a9f81-cbc4-41eb-a70b-5eaeadea8840:read' # Catalog
+  - 'seomatic.all:read'

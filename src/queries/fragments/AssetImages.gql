@@ -1,0 +1,15 @@
+fragment Images on images_Asset {
+    ...ImagesFields
+}
+
+fragment ImagesFields on images_Asset {
+    alt
+    uri
+    url
+    filename
+    width
+    height
+    hasFocalPoint
+    focalPoint
+    extension
+}

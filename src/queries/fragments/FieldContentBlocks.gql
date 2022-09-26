@@ -1,0 +1,30 @@
+#import "./AssetImages.gql"
+#import "./FieldTypeLinkField.gql"
+
+fragment FieldContentBlocks on contentBlocks_MatrixField {
+    ... on contentBlocks_heading_BlockType {
+        id
+        type: typeHandle
+        heading
+        size
+    }
+    ... on contentBlocks_copy_BlockType {
+        id
+        type: typeHandle
+        richText
+    }
+    ... on contentBlocks_image_BlockType {
+        id
+        type: typeHandle
+        image {
+            ...Images
+        }
+    }
+    ... on contentBlocks_button_BlockType {
+        id
+        type: typeHandle
+        buttonLink {
+            ...FieldTypeLinkField
+        }
+    }
+}

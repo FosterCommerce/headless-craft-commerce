@@ -1,0 +1,9 @@
+baseUrl: $CRAFT_BASE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'Foster Commerce Dot All 2022'
+primary: true
+siteGroup: 96429840-47c0-490f-a057-4565f9d9d895 # Foster Commerce Dot All 2022
+sortOrder: 1

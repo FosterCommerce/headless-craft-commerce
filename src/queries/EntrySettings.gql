@@ -1,0 +1,21 @@
+#import "./fragments/FieldTypeLinkField.gql"
+
+query EntrySettings {
+    entry(section: "settings") {
+        typeHandle
+        sectionHandle
+        ... on settings_settings_Entry {
+            primaryNavigation {
+                ...FieldPrimaryNavigation
+            }
+        }
+    }
+}
+
+fragment FieldPrimaryNavigation on primaryNavigation_MatrixField {
+    ... on primaryNavigation_menuItem_BlockType {
+        navLink {
+            ...FieldTypeLinkField
+        }
+    }
+}

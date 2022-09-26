@@ -1,0 +1,109 @@
+fieldLayouts:
+  0217c0aa-5f8d-4e8f-9b01-7ee4d69cf895:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2d0e6902-d08d-436c-82e8-1b8df7066cfc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d7d54391-72ab-425b-87f9-d3b982cbd69d # Categories
+            instructions: 'Select the categories to filter products on. Leave blank to display all products.'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 328d1728-d526-4382-8723-9bc750ae21a8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7a24de90-6ecf-4386-b258-7e1b8d1671f4 # Results per page
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86b9dbfc-2109-4d31-9418-c366dd4d69af
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3e4c41a3-bbf6-4f97-9c10-fd08d7aedcb3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 66830969-da65-4137-bbfa-98dd011cc191 # Preview Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 23437dae-9e55-4025-a6d0-5096b45c46e2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a9b1834c-4af7-44b5-81de-00dc035a0515 # Preview Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d0f2f8bf-0d0a-452e-b953-fba8572170a8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7434a2d9-23f7-4206-84fa-f1bbad8be64f # Keywords
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 820865c3-fb9a-4131-b7fa-6eaa0e7604d0
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO / Meta'
+        uid: 37118b48-517e-4af2-86ef-7d920d7dcaad
+        userCondition: null
+handle: collection
+hasTitleField: true
+name: Collection
+section: 3f16d68f-cda8-49f7-8564-ba9db1855669 # Pages
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

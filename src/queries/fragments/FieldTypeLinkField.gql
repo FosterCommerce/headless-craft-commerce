@@ -1,0 +1,13 @@
+fragment FieldTypeLinkField on linkField_Link {
+    customText
+    url
+    target
+    type
+    element {
+        ... on ElementInterface {
+            id
+            title
+            uri
+        }
+    }
+}
