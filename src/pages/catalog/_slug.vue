@@ -38,6 +38,7 @@
 				product: null,
 				variants: [],
 				selectedVariant: null,
+				quantity: 1,
 			}
 		},
 		computed: {
@@ -159,12 +160,27 @@
 						:available="availableSizes"
 						@option-selected="selectVariant"
 					/>
-					<ProductAddToCart
-						v-if="selectedVariant.isAvailable"
-						:purchasable="selectedVariant"
-						qty="1"
-						redirect="/cart"
-					/>
+					<div class="flex flex-row justify-between">
+            					<div class="w-24 mr-4">
+            						<label for="quantity_6" class="sr-only">Quantity</label>
+             						<input
+								id="quantity_6"
+								v-model="quantity"
+								name="quantity_6"
+								class="block w-full  h-full rounded-md border border-gray-300 py-1.5 text-base leading-5 font-medium text-gray-700 text-left shadow-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+								type="number"
+								min="1"
+							/>
+						</div>
+
+						<ProductAddToCart
+							v-if="selectedVariant.isAvailable"
+							class="grow mt-0"
+							:purchasable="selectedVariant"
+							:qty="quantity"
+							redirect="/cart"
+						/>
+					</div>
 				</form>
 
 				<div class="mt-10">
