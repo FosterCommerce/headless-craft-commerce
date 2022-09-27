@@ -158,9 +158,9 @@ For our purposes, we are going to assume you have logged in using GitHub. If you
    
 | Variable name | Value |
 | --- | --- |
-| CRAFT_BASE_URL | https://headless-craft-commerce.fosterstaging.com |
+| CRAFT_BASE_URL | [https://headless-craft-commerce.fosterstaging.com](https://headless-craft-commerce.fostercommerce.test) |
 | CRAFT_ENVIRONMENT | staging (or production is fine too) |
-| ASSET_BASE_URL | https://headless-craft-commerce.fosterstaging.com/assets |
+| ASSET_BASE_URL | [https://headless-craft-commerce.fosterstaging.com/assets](https://headless-craft-commerce.fostercommerce.test/assets) |
 | STRIPE_PUB_KEY |  pk_test_51LlDeCIQuBaBLwXUlhgSLcxeO57AtPojwBAKcK32OiXmNLkJ75zbFfAqQRBOzcryuHXt8CPhXWcsca6tha7JpM5Z00FEZRVfNm |
 | PAYPAL_CLIENT_ID |AXP96ibcJy88Xp0cthYMmO8_B0Mzln8TMy7D1LiuUMbXQG89ghRTJQLvbY8oS4AiQuNn2qbnKvn3yFy0 |
 
