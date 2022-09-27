@@ -1,0 +1,19 @@
+columnSuffix: vmxnfxfz
+contentColumnType: text
+fieldGroup: 1b39f5a2-15c0-4af0-be7c-0735aba76665 # Text
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

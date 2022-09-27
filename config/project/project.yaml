@@ -1,4 +1,4 @@
-dateModified: 1664227670
+dateModified: 1664303010
 elementSources:
   craft\commerce\elements\Product:
     -
@@ -98,6 +98,7 @@ meta:
     e0684c4e-4db6-49fe-b178-60bbc3750374: Options # Options
     e4b25d4c-f8ee-4d1b-a77c-2e70560cb1d0: New # New
     e629d7f3-088b-4db7-96f2-b32c33036226: Image # Image
+    ec1642e9-3abb-40a2-83f7-598647316006: Description # Description
     f8a2a825-4c38-46e8-853b-b3ee5d46969b: 'Foster Commerce Dot All 2022' # Foster Commerce Dot All 2022
     f96300ba-530d-42dd-94d6-b086b49639ec: Settings # Settings
 plugins:
