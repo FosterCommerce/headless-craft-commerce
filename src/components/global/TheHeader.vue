@@ -4,6 +4,7 @@
 		name: 'TheHeader',
 		data() {
 			return {
+				loginModalOpen: false,
 				menuOpen : false
 			}
 		},
@@ -23,6 +24,9 @@
 		methods: {
 			toggleMenu() {
 				this.menuOpen = !this.menuOpen;
+			},
+			toggleLoginModal() {
+				this.loginModalOpen = !this.loginModalOpen;
 			}
 		}
 	}
@@ -91,7 +95,7 @@
             <!-- Auxiliary Links -->
             <div class="flex-1 flex items-center justify-end">
               <!-- Account Link -->
-              <a href="#" class="p-2 text-gray-400 hover:text-gray-500 lg:ml-4">
+              <a href="#" class="p-2 text-gray-400 hover:text-gray-500 lg:ml-4" @click.prevent="toggleLoginModal">
                 <span class="sr-only">Account</span>
                 <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -113,5 +117,8 @@
         </div>
       </nav>
     </header>
+    <BaseModal v-if="loginModalOpen" title="Sign in to your account" @close="toggleLoginModal">
+      <LoginForm />
+    </BaseModal>
   </div>
 </template>
