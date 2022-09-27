@@ -22,7 +22,7 @@ Alternatively you can clone the project to your local machine and change its rem
 1. **Clone the project** to your local machine with
 - `git clone git@github.com:FosterCommerce/headless-craft-commerce.git`
 - or; `git clone https://github.com/FosterCommerce/headless-craft-commerce.git`
-- or; download the project as a .zip file from [https://github.com/FosterCommerce/dot-all-2022/archive/refs/heads/develop.zip](https://github.com/FosterCommerce/headless-craft-commerce/archive/refs/heads/main.zip)
+- or; download the project as a .zip file from [https://github.com/FosterCommerce/headless-craft-commerce/archive/refs/heads/develop.zip](https://github.com/FosterCommerce/headless-craft-commerce/archive/refs/heads/main.zip)
 
 2. **Change the origin**
 To make this your own, fire up a terminal and navigate to the root directory of the project. Type the following; 
@@ -55,7 +55,7 @@ This workshop repo includes DDEV config files so if you have Docker Desktop and 
 
 2. Open your terminal and go to the projects root directory :
 
-        cd <path-to-project>/dot-all-2022
+        cd <path-to-project>/headless-craft-commerce
 
 3. Start up Docker Desktop and after it loads, start DDEV in your terminal :
 
@@ -104,14 +104,14 @@ run the following command :
     
     * **Craft Admin**
 
-            https://dot-all-2022.fostercommerce.test/admin
+            https://headless-craft-commerce.fostercommerce.test/admin
         
         * Username : admin
         * Password : password
         
     * **Front End** (on port 3000)
     
-            https://dot-all-2022.fostercommerce.test:3000
+            https://headless-craft-commerce.fostercommerce.test:3000
 
 
 ---
@@ -158,9 +158,9 @@ For our purposes, we are going to assume you have logged in using GitHub. If you
    
 | Variable name | Value |
 | --- | --- |
-| CRAFT_BASE_URL | https://dot-all-2022.fosterstaging.com |
+| CRAFT_BASE_URL | https://headless-craft-commerce.fosterstaging.com |
 | CRAFT_ENVIRONMENT | staging (or production is fine too) |
-| ASSET_BASE_URL | https://dot-all-2022.fosterstaging.com/assets |
+| ASSET_BASE_URL | https://headless-craft-commerce.fosterstaging.com/assets |
 | STRIPE_PUB_KEY |  pk_test_51LlDeCIQuBaBLwXUlhgSLcxeO57AtPojwBAKcK32OiXmNLkJ75zbFfAqQRBOzcryuHXt8CPhXWcsca6tha7JpM5Z00FEZRVfNm |
 | PAYPAL_CLIENT_ID |AXP96ibcJy88Xp0cthYMmO8_B0Mzln8TMy7D1LiuUMbXQG89ghRTJQLvbY8oS4AiQuNn2qbnKvn3yFy0 |
 

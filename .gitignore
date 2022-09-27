@@ -15,6 +15,7 @@ src/dist/*
 
 # WEB FILES
 web/dist/*
+web/assets/images/*/*
 
 # OPS
 

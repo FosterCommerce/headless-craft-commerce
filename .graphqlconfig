@@ -1,10 +1,10 @@
 {
-  "name": "Dot All 2022",
+  "name": "Headless Craft Commerce",
   "schemaPath": "schema.graphql",
   "extensions": {
     "endpoints": {
       "Default GraphQL Endpoint": {
-        "url": "https://dot-all-2022.fostercommerce.test/graphql",
+        "url": "https://headless-craft-commerce.fostercommerce.test/graphql",
         "headers": {
           "user-agent": "JS GraphQL"
         },
