@@ -44,6 +44,7 @@ query EntriesPages (
 
 fragment TypePagesGeneral on EntryInterface {
     ... on pages_general_Entry {
+		description
         contentBlocks {
             ...FieldContentBlocks
         }
